@@ -1,2 +1,0 @@
-deb [ trusted=yes ] http://linux.dropbox.com/debian buster main
-# deb [ trusted=yes ] http://linux.dropbox.com/debian bullseye main
