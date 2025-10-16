@@ -11,7 +11,7 @@
 
 override_dh_install:
 	dh_install
-	mkdir -p debian/q4os-dropbox/tmp
+	mkdir -p debian/dropbox-extq/tmp
 	dh_modify_debdir
 
 # override_dh_link:

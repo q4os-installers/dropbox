@@ -1,16 +1,16 @@
-Source: q4os-dropbox
+Source: dropbox-extq
 Section: none
 Priority: optional
 Maintainer: Q4OS Team <devteam@q4os.org>
 Build-Depends: debhelper (>= 9~), q4os-devpack-base
 Standards-Version: 3.8.4
 
-Package: q4os-dropbox
+Package: dropbox-extq
 Architecture: all
 Pre-Depends:
 Depends: gir1.2-gtk-3.0, dropbox
 Recommends: gtk2-engines, python3-gpg
-Conflicts:
+Conflicts: q4os-dropbox
 Provides:
 Replaces:
 Breaks:
