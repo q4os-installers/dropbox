@@ -1,0 +1,17 @@
+Source: q4os-dropbox
+Section: none
+Priority: optional
+Maintainer: Q4OS Team <devteam@q4os.org>
+Build-Depends: debhelper (>= 9~), q4os-devpack-base
+Standards-Version: 3.8.4
+
+Package: q4os-dropbox
+Architecture: all
+Pre-Depends:
+Depends: gir1.2-gtk-3.0, dropbox
+Recommends: gtk2-engines, python3-gpg
+Conflicts:
+Provides:
+Replaces:
+Breaks:
+Description: Dropbox metapackage
